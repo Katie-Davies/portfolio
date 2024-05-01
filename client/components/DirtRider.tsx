@@ -9,7 +9,7 @@ function DirtRider() {
             rel="noreferrer"
           >
             <img
-              src="client/assets/dirtriderview.png"
+              src="/client/assets/dirtriderview.png"
               alt="view of dirtrider website"
               className="max-w-sm scale-90 hover:scale-100"
             ></img>
