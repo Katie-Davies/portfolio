@@ -1,3 +1,5 @@
+import cv from '../assets/KatieDavies2024-updateCv.pdf'
+
 function Nav() {
   const handleClick = (id: string) => {
     const heading = document.getElementById(id)
@@ -8,9 +10,9 @@ function Nav() {
   }
 
   const handleDownloadPdf = () => {
-    const pdfUrl = 'client/assets/KatieDavies2024-updateCv.pdf'
+    // const pdfUrl = cv
     // Open the PDF file in a new window/tab
-    window.open(pdfUrl, '_blank')
+    window.open(cv, '_blank')
   }
 
   return (
