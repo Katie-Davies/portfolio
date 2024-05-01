@@ -1,3 +1,5 @@
+import disneyImg from '../assets/disneygame.png'
+
 function Disney() {
   return (
     <>
@@ -9,7 +11,7 @@ function Disney() {
             rel="noreferrer"
           >
             <img
-              src="public/images/disneygame.png"
+              src={disneyImg}
               alt="view of disney trivia website"
               className="max-w-sm scale-90 hover:scale-100 z-0"
             ></img>

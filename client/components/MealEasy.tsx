@@ -1,3 +1,5 @@
+import mealEasyImg from '../assets/mealeasy.png'
+
 function MealEasy() {
   return (
     <>
@@ -34,7 +36,7 @@ function MealEasy() {
             rel="noreferrer"
           >
             <img
-              src="public/images/mealeasy.png"
+              src={mealEasyImg}
               alt="view of MealEasy website"
               className="max-w-sm scale-90 hover:scale-100"
             ></img>

@@ -1,3 +1,5 @@
+import prompterImg from '../assets/prompter-bg.png'
+
 function Prompter() {
   return (
     <div className="flex mb-5 justify-center flex-wrap mx-5 h-auto sm:m-5">
@@ -29,7 +31,7 @@ function Prompter() {
           rel="noreferrer"
         >
           <img
-            src="public/images/prompter-bg.png"
+            src={prompterImg}
             alt="view of Prompter website"
             className="max-w-sm scale-90 hover:scale-100"
           ></img>
