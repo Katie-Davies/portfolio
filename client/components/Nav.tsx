@@ -1,4 +1,4 @@
-import cv from '../assets/KatieDavies2024-updateCv.pdf'
+import cv from '../assets/KatieDavies2024-Cv.pdf'
 
 function Nav() {
   const handleClick = (id: string) => {
