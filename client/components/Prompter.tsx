@@ -29,7 +29,7 @@ function Prompter() {
           rel="noreferrer"
         >
           <img
-            src="client/assets/prompter-bg.png"
+            src="public/images/prompter-bg.png"
             alt="view of Prompter website"
             className="max-w-sm scale-90 hover:scale-100"
           ></img>

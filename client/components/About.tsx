@@ -3,7 +3,7 @@ function About() {
     <div className="w-full flex flex-col content-center mt-10 flex-wrap mb-20">
       <div className="flex justify-center flex-col flex-wrap content-center">
         <img
-          src="client/assets/about.png"
+          src="public/images/about.png"
           alt="3 swirls"
           className="w-44 h-auto"
         ></img>

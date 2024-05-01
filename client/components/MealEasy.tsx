@@ -34,7 +34,7 @@ function MealEasy() {
             rel="noreferrer"
           >
             <img
-              src="client/assets/mealeasy.png"
+              src="public/images/mealeasy.png"
               alt="view of MealEasy website"
               className="max-w-sm scale-90 hover:scale-100"
             ></img>

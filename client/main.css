@@ -19,7 +19,7 @@ h1 {
 
 .landing-img {
   height: 55rem;
-  background-image: url('/client/assets/background.png');
+  background-image: url('public/images/background.png');
   background-size: cover; /* Cover the entire container */
   background-position: center center; /* Center the image */
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ h1 {
 
 .contact-img {
   height: 35rem;
-  background-image: url('/client/assets/contactbg.png');
+  background-image: url('public/images/contactbg.png');
   background-size: cover; /* Cover the entire container */
   background-position: center center; /* Center the image */
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@ h1 {
 .dirtrider-bg {
   height: 400px;
   width: 600px;
-  background-image: url('/client/assets/greenbg400x600.png');
+  background-image: url('public/images/greenbg400x600.png');
   background-size: cover; /* Cover the entire container */
   background-repeat: no-repeat;
 }
@@ -52,7 +52,7 @@ h1 {
 .todos-bg {
   height: 400px;
   width: 600px;
-  background-image: url('/client/assets/yellowbg400x600.png');
+  background-image: url('public/images/yellowbg400x600.png');
   background-size: cover; /* Cover the entire container */
   background-repeat: no-repeat;
 }
@@ -60,7 +60,7 @@ h1 {
 .mealeasy-bg {
   height: 400px;
   width: 600px;
-  background-image: url('/client/assets/lightpinkbg400x600.png');
+  background-image: url('public/images/lightpinkbg400x600.png');
   background-size: cover; /* Cover the entire container */
   background-repeat: no-repeat;
 }
@@ -68,7 +68,7 @@ h1 {
 .prompter-bg {
   height: 400px;
   width: 600px;
-  background-image: url('/client/assets/pinkbg400x600.png');
+  background-image: url('public/images/pinkbg400x600.png');
   background-size: cover; /* Cover the entire container */
   background-repeat: no-repeat;
 }
