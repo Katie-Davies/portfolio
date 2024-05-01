@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  height: auto;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.landing-img {
+  height: 55rem;
+  background-image: url('client/assets/background.png');
+  background-size: cover; /* Cover the entire container */
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black; /* Text color */
+  padding: 50px; /* Add padding for content */
+  background-color: #fbfafa;
+}
+
+.contact-img {
+  height: 35rem;
+  background-image: url('client/assets/contactbg.png');
+  background-size: cover; /* Cover the entire container */
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black; /* Text color */
+  padding: 50px; /* Add padding for content */
+  background-color: #fbfafa;
+}
+
+.dirtrider-bg {
+  height: 400px;
+  width: 600px;
+  background-image: url('../assets/greenbg400x600.png');
+  background-size: cover; /* Cover the entire container */
+  background-repeat: no-repeat;
+}
+
+.todos-bg {
+  height: 400px;
+  width: 600px;
+  background-image: url('../assets/yellowbg400x600.png');
+  background-size: cover; /* Cover the entire container */
+  background-repeat: no-repeat;
+}
+
+.mealeasy-bg {
+  height: 400px;
+  width: 600px;
+  background-image: url('../assets/lightpinkbg400x600.png');
+  background-size: cover; /* Cover the entire container */
+  background-repeat: no-repeat;
+}
+
+.prompter-bg {
+  height: 400px;
+  width: 600px;
+  background-image: url('../assets/pinkbg400x600.png');
+  background-size: cover; /* Cover the entire container */
+  background-repeat: no-repeat;
+}
+li {
+  font-size: small;
+}
+
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: start;
+}
+
+.app-container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 767px) {
+  .landing-img {
+    background-image: url('../assets/mobilebg400x600.png');
+    height: 400px; /* Let the height adjust dynamically */
+
+    padding: 20px; /* Adjust padding for smaller screens */
+    background-size: cover; /* Ensure the entire image is visible */
+    background-attachment: scroll; /*Scrollable background on mobile */
+  }
+  .mealeasy-bg {
+    background-image: url('../assets/mobilebg400x400.png');
+    height: 400px;
+    width: 400px;
+    margin-right: 5px;
+  }
+  .prompter-bg {
+    background-image: url('../assets/pinkbg400x400.png');
+    height: 400px;
+    width: 400px;
+    margin-right: 5px;
+  }
+  .dirtrider-bg {
+    background-image: url('../assets/greenbg400x400.png');
+    height: 400px;
+    width: 400px;
+    margin-right: 5px;
+  }
+  .todos-bg {
+    background-image: url('../assets/yellowbg400x400.png');
+    height: 400px;
+    width: 400px;
+    margin-right: 5px;
+  }
+  li {
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .landing-img {
+    width: 400px;
+  }
+}
