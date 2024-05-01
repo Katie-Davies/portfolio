@@ -1,3 +1,5 @@
+import todosPng from '../assets/todos-bg.png'
+
 function Todos() {
   return (
     <div className="flex mb-5 justify-center flex-wrap mx-5 h-auto">
@@ -8,7 +10,7 @@ function Todos() {
           rel="noreferrer"
         >
           <img
-            src="public/images/todos-bg.png"
+            src={todosPng}
             alt="view of todos website"
             className="max-w-sm scale-90 hover:scale-100"
           ></img>
