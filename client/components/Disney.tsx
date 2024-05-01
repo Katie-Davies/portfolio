@@ -11,7 +11,7 @@ function Disney() {
             <img
               src="client/assets/disneygame.png"
               alt="view of disney trivia website"
-              className="max-w-sm scale-90 hover:scale-100"
+              className="max-w-sm scale-90 hover:scale-100 z-0"
             ></img>
           </a>
         </div>
