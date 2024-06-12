@@ -27,7 +27,7 @@ function DirtRider() {
               </li>
               <li>
                 <strong>Tech: </strong>React | React-Router | Node | Express |
-                Typescript | sqlite | Azure AD B2C
+                Typescript | sqlite | AUTH0
               </li>
 
               <li className="mt-2">
@@ -37,9 +37,9 @@ function DirtRider() {
                 out their bikes when they are not using them.
               </li>
               <li className="mt-3">
-                <strong>Next steps:</strong> Using PostgreSQL, implementing
-                Azure AD B2C, deploying with Azure and implementing a payment
-                API.
+                <strong>Next steps:</strong> Creating a payment system using
+                Stripe and a chat application for host to communciate with
+                renter.
               </li>
             </ul>
           </div>
