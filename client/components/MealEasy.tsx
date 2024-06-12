@@ -23,8 +23,8 @@ function MealEasy() {
                 They can then reselect plans from previous weeks.
               </li>
               <li className="mt-2">
-                <strong>Next Steps:</strong> User adding own recipes, using a
-                non-relational database and deploying on cloud.
+                <strong>Next Steps:</strong> User adding own recipes, improving
+                shopping list and deploying on cloud.
               </li>
             </ul>
           </div>
