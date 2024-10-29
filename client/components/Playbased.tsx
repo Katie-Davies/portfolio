@@ -1,6 +1,6 @@
 import playbasedImg from '../assets/playbased.png'
 
-function Prompter() {
+function Playbased() {
   return (
     <div className="flex mb-5 justify-center flex-wrap mx-5 h-auto sm:m-5">
       <div className="prompter-bg flex content-start justify-center flex-wrap ml-5">
@@ -24,6 +24,11 @@ function Prompter() {
               my first attempt at using .net, Azure Sql DB and Azure Blob
               Storage.
             </li>
+            <li className="mt-3">
+              <strong>Next steps:</strong> Implementing an option to add own
+              activities and using AI to suggest activities based on users
+              preferences.
+            </li>
           </ul>
         </div>
       </div>
@@ -43,4 +48,4 @@ function Prompter() {
     </div>
   )
 }
-export default Prompter
+export default Playbased

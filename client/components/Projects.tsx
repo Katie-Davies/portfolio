@@ -15,6 +15,9 @@ function Projects() {
         </h1>
       </div>
       <div className="flex flex-col h-auto">
+      <div className="flex justify-center">
+          < />
+        </div>
         <div className="flex justify-center">
           <DirtRider />
         </div>
