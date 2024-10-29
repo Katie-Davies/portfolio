@@ -2,6 +2,7 @@ import DirtRider from './DirtRider'
 import Disney from './Disney'
 
 import MealEasy from './MealEasy'
+import Playbased from './Playbased'
 import Prompter from './Prompter'
 import Todos from './Todos'
 
@@ -15,8 +16,8 @@ function Projects() {
         </h1>
       </div>
       <div className="flex flex-col h-auto">
-      <div className="flex justify-center">
-          < />
+        <div className="flex justify-center">
+          <Playbased />
         </div>
         <div className="flex justify-center">
           <DirtRider />
