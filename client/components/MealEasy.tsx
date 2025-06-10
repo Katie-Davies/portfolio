@@ -31,7 +31,7 @@ function MealEasy() {
         </div>
         <div className="flex content-center flex-wrap">
           <a
-            href="https://meal-easy.pushed.nz/"
+            href="https://github.com/MealEasy/MealEasyApplication"
             target="_blank"
             rel="noreferrer"
           >
