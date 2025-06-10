@@ -5,7 +5,7 @@ function Todos() {
     <div className="flex mb-5 justify-center flex-wrap mx-5 h-auto">
       <div className="flex content-center flex-wrap">
         <a
-          href="https://kate-todos.pushed.nz/"
+          href="https://github.com/Katie-Davies/kd-todo-full-stack"
           target="_blank"
           rel="noreferrer"
         >
